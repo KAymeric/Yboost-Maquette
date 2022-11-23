@@ -1,3 +1,16 @@
+@font-face {
+    font-family: LocalFont;
+    src: url(assets/haettenschweiler.ttf);
+}
+
+html {
+    font-family: "Comic Sans MS", serif;
+    margin: 0 0 0 50px;
+    padding: 0;
+    background: url("assets/background_2.png") no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
 .container{
     display:flex;
     flex-direction: row;
@@ -8,7 +21,7 @@
 
 @media only screen and (max-width: 650px) {
     .container{
-        flex-direction: column;  
+        flex-direction: column;
     }
 }
 
@@ -25,19 +38,4 @@
     flex-grow: 1;
     font-size: 200%;
     size:120%
-}
-
-#GooglePlayIMG{
-    width : 40%;
-    position:relative;
-    top: 20%;
-    left: 30%;
-}
-
-#AppStoreIMG{
-    width: 40%;
-    padding-top: 6%;
-    position:relative;
-    top: 10%;
-    left: 30%;
 }
